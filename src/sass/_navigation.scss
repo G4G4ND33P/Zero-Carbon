@@ -1,0 +1,72 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background: #24252A;
+    color: #ffffff;
+    // ul {
+    //     list-style: none;
+    //     display: flex;
+    // }
+    // li {
+    //     margin-right: 1rem;
+    //     &:hover {
+    //         cursor: pointer;
+    //     }
+    // }
+}
+
+.logo {
+    margin-right: auto;
+    &-bitcoin {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+}
+
+.nav {
+    &_links {
+        list-style: none;
+    }
+    &-item {
+        display: inline-block;
+        padding: 0px 10px;
+        a {
+            transition: all 0.3s ease 0s;
+            text-decoration: none;
+            color: white;
+            &:hover {
+                color: #0088a9;
+            }
+        }
+    }
+    &-account {
+        //border: 1px solid #ddd;
+        padding: 2px 20px;
+        border-radius: 50px;
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+            transition: all 0.3s ease 0s;
+            background: #ddd;
+            color: #24252A;
+        }
+    }
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    color: #24252A;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
