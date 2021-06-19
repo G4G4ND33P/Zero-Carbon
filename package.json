@@ -2,7 +2,7 @@
     "name": "recycoin_v0",
     "version": "0.1.0",
     "private": true,
-    "scripts": {
+    "scripts": {     
         "serve": "vue-cli-service serve",
         "dev": "vue-cli-service serve",
         "build": "vue-cli-service build"
@@ -11,8 +11,12 @@
         "@truffle/hdwallet-provider": "^1.1.1",
         "animejs": "^3.2.1",
         "axios": "^0.19.2",
+        "body-parser": "^1.19.0",
         "core-js": "^3.6.5",
+        "cors": "^2.8.5",
         "css-loader": "^4.2.1",
+        "express": "^4.17.1",
+        "mongodb": "^3.6.9",
         "quagga": "^0.12.1",
         "register-service-worker": "^1.7.1",
         "scrollreveal": "^4.0.7",
@@ -27,6 +31,7 @@
         "@vue/cli-plugin-pwa": "^4.4.0",
         "@vue/cli-service": "^4.4.0",
         "node-sass": "^4.14.1",
+        "nodemon": "^2.0.7",
         "sass-loader": "^8.0.2",
         "truffle": "^5.1.44",
         "truffle-contract": "^3.0.6",
